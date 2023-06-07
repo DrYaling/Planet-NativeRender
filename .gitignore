@@ -1,0 +1,12 @@
+/PluginSource/build
+UnityProject/Library/*
+/UnityProject/Logs
+/UnityProject/obj
+/UnityProject/Temp
+/UnityProject/*.csproj
+/UnityProject/*.sln
+/UnityProject/*.vsconfig
+*/.vs
+UnityProject/Assets/StreamingAssets/
+UnityProject/Library/
+PluginSource/projects/VisualStudio2015/.vs/

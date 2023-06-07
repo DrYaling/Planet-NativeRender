@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\source\PlatformBase.h" />
+    <ClInclude Include="..\..\source\RenderAPI.h" />
+    <ClInclude Include="..\..\source\Unity\IUnityGraphics.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Unity\IUnityGraphicsD3D9.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Unity\IUnityGraphicsD3D11.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Unity\IUnityGraphicsD3D12.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Unity\IUnityGraphicsMetal.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Unity\IUnityInterface.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gl3w\gl3w.h">
+      <Filter>gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gl3w\glcorearb.h">
+      <Filter>gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\ResourceManager.h" />
+    <ClInclude Include="..\..\source\Threading\ThreadPool.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Threading\ThreadManager.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Threading\threading.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\define.h" />
+    <ClInclude Include="..\..\source\Logger\Logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Logger\leakHelper.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\RenderingPlugin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\RenderAPI.cpp" />
+    <ClCompile Include="..\..\source\RenderAPI_D3D11.cpp" />
+    <ClCompile Include="..\..\source\RenderAPI_OpenGLCoreES.cpp" />
+    <ClCompile Include="..\..\source\RenderingPlugin.cpp" />
+    <ClCompile Include="..\..\source\RenderAPI_D3D12.cpp" />
+    <ClCompile Include="..\..\source\RenderAPI_Vulkan.cpp" />
+    <ClCompile Include="..\..\source\gl3w\gl3w.c">
+      <Filter>gl3w</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\ResourceManager.cpp" />
+    <ClCompile Include="..\..\source\Threading\ThreadManager.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Threading\ThreadPool.cpp">
+      <Filter>Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Logger\Logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Unity">
+      <UniqueIdentifier>{c01468d4-90d4-4d19-9a9b-ee2f1b5e9083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gl3w">
+      <UniqueIdentifier>{f00ad923-e825-43a2-b22c-b3380a3a8813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{4a48c50d-87f4-4dfe-8376-3703da80edbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{f689d2a8-2d97-47e5-a349-2e07ef3b29a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\source\RenderingPlugin.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\source\RenderAPI_Metal.mm" />
+  </ItemGroup>
+</Project>
